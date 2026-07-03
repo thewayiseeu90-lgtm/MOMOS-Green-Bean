@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  background-color: #FAF6EE;
+  color: #2B241D;
+}
+
+.input {
+  width: 100%;
+  border: 1px solid #E4D9C3;
+  padding: 0.5rem 0.75rem;
+  background: white;
+  font-size: 0.875rem;
+}
+.input:focus {
+  outline: 2px solid #B5572B;
+  outline-offset: 1px;
+}
+
+.label-eyebrow {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.7rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #6b6157;
+}
